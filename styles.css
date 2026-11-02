@@ -1,0 +1,51 @@
+html {
+    background-color: aquamarine;
+}
+
+.sitenav {
+background-color: cornflowerblue;
+
+}
+
+.navlink {
+display: flex;    
+list-style-type: none;
+padding: 0;
+}
+
+.topnav {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.topnav:hover {
+    background-color: blue;
+}
+
+.bottomnav {
+    position: absolute;
+    background-color: rgb(70, 229, 229);
+    list-style-type: none;
+    padding: 0px;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.75);
+    display: none;
+}
+
+.bottomlink {
+    display: block;
+    padding: 10px 30px;
+    color: rgb(244, 244, 244);
+    text-decoration: none;
+}
+
+.bottomlink:hover {
+background-color: rgb(70, 114, 196);
+}
+
+.navinter:hover .bottomnav{
+    display: block;
+}
+
+
