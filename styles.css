@@ -11,6 +11,7 @@ background-color: cornflowerblue;
 display: flex;    
 list-style-type: none;
 padding: 0;
+ justify-content: space-evenly;
 }
 
 .topnav {
@@ -18,6 +19,7 @@ padding: 0;
     padding: 10px 20px;
     color: white;
     text-decoration: none;
+   
 }
 
 .topnav:hover {
@@ -44,8 +46,20 @@ padding: 0;
 background-color: rgb(70, 114, 196);
 }
 
-.navinter:hover .bottomnav{
+.navinter:hover .bottomnav {
     display: block;
 }
 
 
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+code {
+    background-color: rgba(74, 150, 216, 0.125);
+    border-radius: 5px;
+    padding: 3px;
+    color: orangered;
+}
